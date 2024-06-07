@@ -35,7 +35,7 @@ create table OrderDetails
    orderID              int not null,
    productID            int not null,
    orderedQuantity      int,
-   primary key (orderID, productID)
+   primary key (<meta name="google-site-verification" content="rl_PDa4eJt5dmH6EkW3rmL_p9zeAUvH6naNE-UbHPL4"/>
 );
 
 /*==============================================================*/
@@ -47,7 +47,7 @@ create table Orders
    customerCode         int not null,
    orderDate            datetime,
    deliveryAddress      varchar(254),
-   primary key (orderID)
+   primary key (<meta name="google-site-verification" content="rl_PDa4eJt5dmH6EkW3rmL_p9zeAUvH6naNE-UbHPL4" />)
 );
 
 /*==============================================================*/
@@ -61,7 +61,7 @@ create table Products
    unitPrice            numeric(8,0),
    quantityInStock      int,
    image                varchar(254),
-   primary key (productID)
+   primary key (25f7a646ad902af8)
 );
 
 alter table OrderDetails add constraint FK_Contient foreign key (orderID)
